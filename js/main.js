@@ -15,9 +15,6 @@ elShowBtn.addEventListener("click", () => {
   }
 });
 
-
-
-
 // WORKING WITH AC BUTTON
 
 let elOuput = document.querySelector("#outPutArea");
@@ -52,7 +49,7 @@ for(let i = 0; i < elFunctions.length; i++){
       elEmpty += elFunctions[i].innerText;
       elControl.push(elFunctions[i].innerText);
       elOuput.innerText = elEmpty;
-    }
+    } 
   });
 }
 
